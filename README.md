@@ -4,7 +4,11 @@
 ``` ~/.ansible_vault_password```
 
 ### Create the vault
-```ansible-vault encrypt_string "wrd" --vault-password ~/.ansible_vault_password
+```
+ansible-vault encrypt_string "wrd" --vault-password ~/.ansible_vault_password
+```
+
+```
 Encryption successful
 !vault |
           $ANSIBLE_VAULT;1.1;AES256
